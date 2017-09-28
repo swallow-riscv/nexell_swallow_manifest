@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin"
+            fetch="../../"/>
+
+    <project path="yocto/riscv-poky" name="nexell/riscv/riscv-poky" groups="riscv" remote="origin" revision="master" />
+    <project path="yocto/riscv-linux" name="nexell/riscv/riscv-linux" groups="riscv" remote="origin" revision="riscv-next" />
+</manifest>
