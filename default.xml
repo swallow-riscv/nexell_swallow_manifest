@@ -4,5 +4,7 @@
             fetch="../../"/>
 
     <project path="yocto/riscv-poky" name="nexell/riscv/riscv-poky" groups="riscv" remote="origin" revision="master" />
-    <project path="yocto/riscv-linux" name="nexell/riscv/riscv-linux" groups="riscv" remote="origin" revision="riscv-next" />
+    <project path="riscv-linux" name="nexell/riscv/riscv-linux" groups="riscv" remote="origin" revision="riscv-next" />
+    <project path="riscv-bbl" name="nexell/riscv/riscv-bbl" groups="riscv" remote="origin" revision="master" />
+    <project path="riscv-toolchain" name="nexell/riscv/riscv-toolchain" groups="riscv" remote="origin" revision="master" />
 </manifest>
