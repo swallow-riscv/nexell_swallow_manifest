@@ -7,4 +7,5 @@
     <project path="riscv-linux" name="nexell/riscv/riscv-linux" groups="riscv" remote="origin" revision="riscv-next" />
     <project path="riscv-bbl" name="nexell/riscv/riscv-bbl" groups="riscv" remote="origin" revision="master" />
     <project path="riscv-toolchain" name="nexell/riscv/riscv-toolchain" groups="riscv" remote="origin" revision="master" />
+    <project path="sifive" name="nexell/riscv/sifive" groups="riscv" remote="origin" revision="master" />
 </manifest>
