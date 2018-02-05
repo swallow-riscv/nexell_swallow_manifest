@@ -3,9 +3,17 @@
     <remote name="origin"
             fetch="../../"/>
 
-    <project path="yocto/riscv-poky" name="nexell/riscv/riscv-poky" groups="riscv" remote="origin" revision="master" />
-    <project path="riscv-linux" name="nexell/riscv/riscv-linux" groups="riscv" remote="origin" revision="riscv-next" />
-    <project path="riscv-bbl" name="nexell/riscv/riscv-bbl" groups="riscv" remote="origin" revision="master" />
-    <project path="riscv-toolchain" name="nexell/riscv/riscv-toolchain" groups="riscv" remote="origin" revision="master" />
-    <project path="riscv-boom-ref" name="nexell/riscv/riscv-boom-ref" groups="riscv" remote="origin" revision="master" />
+    <project path="yocto/riscv-poky" name="nexell/riscv/riscv-poky" groups="riscv" remote="origin" revision="nexell" />
+    <project path="riscv-linux" name="nexell/riscv/riscv-linux" groups="riscv" remote="origin" revision="nexell" />
+    <project path="riscv-pk" name="nexell/riscv/riscv-pk" groups="riscv" remote="origin" revision="nexell" />
+    <project path="riscv-boom-ref" name="nexell/riscv/riscv-boom-ref" groups="riscv" remote="origin" revision="nexell" />
+    <project path="riscv-qemu" name="nexell/riscv/riscv-qemu" groups="riscv" remote="origin" revision="nexell" />
+    <project path="riscv-tools" name="nexell/riscv/riscv-tools" groups="riscv" remote="origin" revision="nexell" />
+    <project path="riscv-bootrom" name="nexell/riscv/riscv-bootrom" groups="riscv" remote="origin" revision="nexell" />
+    <project path="tools" name="nexell/riscv/tools" groups="riscv" remote="origin" revision="nexell" />
+
+    <remote name="references"
+	    fetch="https://github.com/" />
+    <project path="references/rocket-chip" name="freechipsproject/rocket-chip" remote="references" revision="master" />
+    <project path="references/freedom-u-sdk" name="sifive/freedom-u-sdk" remote="references" revision="master" />
 </manifest>
