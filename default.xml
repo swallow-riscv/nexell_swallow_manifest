@@ -10,6 +10,7 @@
     <project path="riscv-qemu" name="nexell/riscv/riscv-qemu" groups="riscv" remote="origin" revision="nexell" />
     <project path="riscv-tools" name="nexell/riscv/riscv-tools" groups="riscv" remote="origin" revision="nexell" />
     <project path="riscv-bootrom" name="nexell/riscv/riscv-bootrom" groups="riscv" remote="origin" revision="nexell" />
+    <project path="riscv-bl1" name="nexell/riscv/riscv-bl1" groups="riscv" remote="origin" revision="nexell" />
     <project path="tools" name="nexell/riscv/tools" groups="riscv" remote="origin" revision="nexell" />
 
     <remote name="references"
