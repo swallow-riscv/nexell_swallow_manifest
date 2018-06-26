@@ -13,6 +13,10 @@
     <project path="riscv-bl1" name="nexell/riscv/riscv-bl1" groups="riscv" remote="origin" revision="nexell" />
     <project path="tools" name="nexell/riscv/tools" groups="riscv" remote="origin" revision="nexell" />
 
+    <project path="library/nx-scaler" name="nexell/linux/library/nx-scaler" groups="library" remote="origin" revision="nexell" />
+    <project path="library/nx-v4l2" name="nexell/linux/library/nx-v4l2" groups="library" remote="origin" revision="nexell" />
+    <project path="apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="origin" revision="nexell" />
+
     <remote name="references"
 	    fetch="https://github.com/" />
     <project path="references/rocket-chip" name="freechipsproject/rocket-chip" remote="references" revision="master" />
