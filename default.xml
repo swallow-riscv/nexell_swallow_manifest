@@ -15,7 +15,7 @@
 
     <project path="library/nx-scaler" name="nexell/linux/library/nx-scaler" groups="library" remote="origin" revision="nexell" />
     <project path="library/nx-v4l2" name="nexell/linux/library/nx-v4l2" groups="library" remote="origin" revision="nexell" />
-    <project path="library/nx-allocator" name="nexell/linux/library/nx-allocator" groups="library" remote="origin" revision="nexell" />
+    <project path="library/nx-allocator" name="nexell/linux/library/nx-allocator" groups="library" remote="origin" revision="master" />
     <project path="apps/testsuite" name="nexell/linux/apps/testsuite" groups="apps" remote="origin" revision="nexell" />
 
     <remote name="references"
