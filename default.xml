@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="origin"
-            fetch="../../"/>
+            fetch="ssh://NexellBackUp@review.gerrithub.io:29418/swallow-riscv"/>
 
     <project path="yocto/riscv-poky" name="nexell_swallow_riscv-poky" groups="riscv" remote="origin" revision="nexell" />
     <project path="riscv-linux" name="nexell_swallow_riscv-linux" groups="riscv" remote="origin" revision="swallow" />
@@ -10,7 +10,7 @@
     <project path="riscv-tools" name="nexell_swallow_riscv-tools" groups="riscv" remote="origin" revision="nexell" />
     <project path="riscv-bootrom" name="nexell_swallow_riscv-bootrom" groups="riscv" remote="origin" revision="nexell" />
     <project path="riscv-bl1" name="nexell_swallow_riscv-bl1" groups="riscv" remote="origin" revision="nexell" />
-    <project path="tools" name="nexell_swallo_tools" groups="riscv" remote="origin" revision="nexell" />
+    <project path="tools" name="nexell_swallow_tools" groups="riscv" remote="origin" revision="nexell" />
 
     <project path="library/nx-scaler" name="nexell_swallow_library_nx-scaler" groups="library" remote="origin" revision="nexell" />
     <project path="library/nx-v4l2" name="nexell_swallow_library_nx-v4l2" groups="library" remote="origin" revision="nexell" />
