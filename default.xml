@@ -16,6 +16,6 @@
     <project path="library/nx-v4l2" name="nexell_swallow_library_nx-v4l2" groups="library" remote="origin" revision="nexell" />
     <project path="library/nx-allocator" name="nexell_swallow_library_nx-allocator" groups="library" remote="origin" revision="nexell" />
     <project path="library/nx-video-api" name="linux_library_nx_video_api" groups="library" remote="origin" revision="nexell" />
-    <project path="apps/nx-video-api-test" name="linux_apps_nx_video_api_test" groups="apps" remote="origin" revision="nexell" />
+    <project path="apps/simple-video-enc-test" name="linux_apps_simple_enc_test" groups="apps" remote="origin" revision="nexell" />
     <project path="apps/testsuite" name="nexell_swallow_apps_testsuite" groups="apps" remote="origin" revision="nexell" />
 </manifest>
