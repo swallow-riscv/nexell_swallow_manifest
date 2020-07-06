@@ -2,8 +2,11 @@
 <manifest>
     <remote name="origin"
             fetch="ssh://NexellBackUp@review.gerrithub.io:29418/swallow-riscv"/>
+	<remote name="nexell"
+            fetch="ssh://NexellBackUp@review.gerrithub.io:29418/NexellCorp" />
 
     <project path="yocto/riscv-poky" name="nexell_swallow_riscv-poky" groups="riscv" remote="origin" revision="nexell" />
+	<project path="yocto/meta-openembedded" name="yocto_meta-openembedded" groups="yocto" remote="nexell" revision="dizzy" />
     <project path="riscv-linux" name="nexell_swallow_riscv-linux" groups="riscv" remote="origin" revision="swallow" />
     <project path="riscv-pk" name="nexell_swallow_riscv-pk" groups="riscv" remote="origin" revision="swallow" />
     <project path="riscv-qemu" name="nexell_swallow_riscv-qemu" groups="riscv" remote="origin" revision="swallow" />
