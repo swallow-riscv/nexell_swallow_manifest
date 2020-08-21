@@ -21,5 +21,6 @@
     <project path="library/nx-video-api" name="linux_library_nx_video_api" groups="library" remote="origin" revision="nexell" />
     <project path="apps/simple-enc-test" name="linux_apps_simple_enc_test" groups="apps" remote="origin" revision="nexell" />
     <project path="apps/nx-camera-enc" name="linux_apps_nx_camera_enc" groups="apps" remote="origin" revision="nexell" />
+    <project path="apps/nx-enc-filter" name="linux_apps_nx_enc_filter" groups="apps" remote="origin" revision="master" />
     <project path="apps/testsuite" name="nexell_swallow_apps_testsuite" groups="apps" remote="origin" revision="nexell" />
 </manifest>
